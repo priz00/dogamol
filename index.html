@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOL Günü </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            position: relative;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #008080;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #006666;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form div {
+            margin-bottom: 15px;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            background-color: #008080;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #006666;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e0ffe0;
+            border: 1px solid #008000;
+            border-radius: 5px;
+        }
+        /* Sağ üst köşeye resim ekleme */
+        #logo {
+            position: absolute;
+            top: 10px;
+            right: 10px; /* Sol yerine sağa yerleştirildi */
+            width: 100px;
+        }
+        #logosol {
+            position: absolute;
+            top: 10px;
+            left: 10px; /* Sol yerine sağa yerleştirildi */
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img id="logosol" src="a.png" alt="Logo">
+        <img id="logo" src="EGE.jpg" alt="Logo">
+        <p style="position: absolute; top: 150px; right: 10px; width: 100px; text-align: center; font-size: 19px; color: #333;">EGEHAN BAYRAM (Yapımcı) 2024</p>
+        <h1>MOL GÜNÜMÜZ KUTLU OLSUN!!</h1>
+    </header>
+
+<section>
+    <h2>MOL Nedir?</h2>
+    <p>Mol, kimyada kullanılan temel bir birimdir. Bir mol, 6.022 x 10^23 tane atom, molekül veya diğer kimyasal birimleri ifade eder. Bu sayı Avogadro Sayısı olarak bilinir. Mol, miktar belirlemek için kullanılır ve kimyada çok önemlidir çünkü tepkimelerdeki maddelerin ölçülmesi ve oranlarının hesaplanması mol üzerinden yapılır.</p>
+</section>
+
+<section>
+    <h2>MOL Nerelerde Kullanılır?</h2>
+    <ul>
+        <li>Kimyasal tepkime oranlarını hesaplamada.</li>
+        <li>Elementlerin kütlesel miktarını belirlemede.</li>
+        <li>Gazların hacimlerini karşılaştırmada.</li>
+        <li>Çözeltilerde konsantrasyon hesaplamada.</li>
+        <li>Farmasötik ilaçların dozajlarını belirlemede.</li>
+    </ul>
+</section>
+<img src="ava.png" alt="A" style="width: 100px; height: 200px; vertical-align: middle;"> 
+<img src="asd.jpg" alt="B" style="width: 100px; height: 150px; float: right;">
+
+<section>
+    
+    <h2>MOL Hakkında Test</h2>
+    <form id="molQuiz">
+        
+        <div>
+            <p>1. Bir mol kaç tane atom veya molekül içerir?</p>
+            <label><input type="radio" name="q1" value="A"> 6.022 x 10^22</label><br>
+            <label><input type="radio" name="q1" value="B"> 6.022 x 10^23</label><br>
+            <label><input type="radio" name="q1" value="C"> 1.022 x 10^23</label><br>
+            <label><input type="radio" name="q1" value="D"> 6.022 x 10^24</label><br>
+            <label><input type="radio" name="q1" value="E"> 1.022 x 10^24</label>
+        </div>
+
+        <div>
+            <p>2. Hangi bilim insanı Avogadro sayısını tanımlamıştır?</p>
+            <label><input type="radio" name="q2" value="A"> Newton</label><br>
+            <label><input type="radio" name="q2" value="B"> Einstein</label><br>
+            <label><input type="radio" name="q2" value="C"> Avogadro</label><br>
+            <label><input type="radio" name="q2" value="D"> Dalton</label><br>
+            <label><input type="radio" name="q2" value="E"> Mendeleyev</label>
+        </div>
+
+        <div>
+            <p>3. 1 mol O2 gazı kaç gramdır?</p>
+            <label><input type="radio" name="q3" value="A"> 16 g</label><br>
+            <label><input type="radio" name="q3" value="B"> 32 g</label><br>
+            <label><input type="radio" name="q3" value="C"> 44 g</label><br>
+            <label><input type="radio" name="q3" value="D"> 18 g</label><br>
+            <label><input type="radio" name="q3" value="E"> 22.4 g</label>
+        </div>
+
+        <div>
+            <p>4. Mol kavramı hangi bilim dalında daha çok kullanılır?</p>
+            <label><input type="radio" name="q4" value="A"> Fizik</label><br>
+            <label><input type="radio" name="q4" value="B"> Kimya</label><br>
+            <label><input type="radio" name="q4" value="C"> Biyoloji</label><br>
+            <label><input type="radio" name="q4" value="D"> Matematik</label><br>
+            <label><input type="radio" name="q4" value="E"> Tıp</label>
+        </div>
+
+        <div>
+            <p>5. Aşağıdaki birimlerden hangisi mol birimi ile ilgili değildir?</p>
+            <label><input type="radio" name="q5" value="A"> Gram</label><br>
+            <label><input type="radio" name="q5" value="B"> Atom</label><br>
+            <label><input type="radio" name="q5" value="C"> Molekül</label><br>
+            <label><input type="radio" name="q5" value="D"> Litre</label><br>
+            <label><input type="radio" name="q5" value="E"> Metre</label>
+        </div>
+
+        <input type="submit" value="Testi Bitir">
+    </form>
+
+    <div id="result"></div>
+</section>
+
+
+<script>
+    document.getElementById('molQuiz').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const answers = {
+            q1: 'B',
+            q2: 'C',
+            q3: 'B',
+            q4: 'B',
+            q5: 'E'
+        };
+
+        let score = 0;
+        let resultText = "<h3>Test Sonucu:</h3>";
+
+        for (let i = 1; i <= 5; i++) {
+            const question = document.querySelector('input[name="q' + i + '"]:checked');
+            if (question) {
+                if (question.value === answers['q' + i]) {
+                    score++;
+                    resultText += `<p>${i}. Soru: Doğru</p>`;
+                } else {
+                    resultText += `<p>${i}. Soru: Yanlış (Doğru Cevap: ${answers['q' + i]})</p>`;
+                }
+            } else {
+                resultText += `<p>${i}. Soru: Cevaplanmadı</p>`;
+            }
+        }
+
+        resultText += `<p>Toplam Doğru Sayısı: ${score}/5</p>`;
+
+        document.getElementById('result').innerHTML = resultText;
+    });
+</script>
+
+</body>
+</html>
